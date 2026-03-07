@@ -44,6 +44,7 @@ body {
 
 .navbar-nav .nav-link {
   color: var(--colorWhite);
+  text-transform: uppercase;
 }
 
 .navbar-nav .nav-link.active,
