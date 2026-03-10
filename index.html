@@ -31,6 +31,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Font Awesome CDN -->
     <link
@@ -160,47 +161,52 @@
     <!-- Header Ends  -->
     <main>
       <!-- Slider Section -->
-      <section id="slider_section" data-aos="fade-down">
+      <section id="slider_section">
         <!--  Slider -->
-        <div
-          id="carousel-Indicators"
-          class="carousel slide desktop-slider"
-          data-bs-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide">
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carousel-Indicators"
+              data-bs-target="#carouselIndicators"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
               aria-label="Slide 1"></button>
             <button
               type="button"
-              data-bs-target="#carousel-Indicators"
+              data-bs-target="#carouselIndicators"
               data-bs-slide-to="1"
               aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="img/banners/desktop_banner1.jpeg"
                 class="d-block w-100 banner1"
-                width="100%"
-                src="img/banners/desktop_banner2.png"
-                alt="Banner1" />
+                alt="..." />
             </div>
             <div class="carousel-item">
               <img
+                src="img/banners/desktop_banner2.jpeg"
                 class="d-block w-100 banner2"
-                width="100%"
-                src="img/banners/desktop_banner2.png"
-                alt="Banner2" />
+                alt="..." />
             </div>
-            `
+            <div class="carousel-item">
+              <img
+                src="img/banners/desktop_banner3.jpeg"
+                class="d-block w-100 banner3"
+                alt="..." />
+            </div>
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carousel-Indicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -208,7 +214,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carousel-Indicators"
+            data-bs-target="#carouselIndicators"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>

@@ -92,10 +92,13 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner2.png");
+    content: url("../img/banners/mobile_banner1.png");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner2.jpg");
+    content: url("../img/banners/mobile_banner2.png");
+  }
+  .carousel-item .banner3 {
+    content: url("../img/banners/mobile_banner3.png");
   }
 }
 
