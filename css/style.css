@@ -83,7 +83,7 @@ main {
 /* Slider */
 .carousel {
   overflow: hidden !important;
-  max-height: calc(100vh - 80px);
+  /* max-height: calc(100vh - 80px); */
 }
 
 .carousel-indicators .active {
@@ -92,7 +92,7 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner1.jpg");
+    content: url("../img/banners/mobile_banner2.png");
   }
   .carousel-item .banner2 {
     content: url("../img/banners/mobile_banner2.jpg");
@@ -293,38 +293,6 @@ main {
   opacity: 0.8;
   transition: 0.5s ease-in-out;
   /* aspect-ratio: 3/2; */
-}
-
-.amenities-card .img1 {
-  background-image: url(../img/amenities/SwimmingPool.jpg);
-}
-
-.amenities-card .img2 {
-  background-image: url(../img/amenities/Gymnasium.jpg);
-}
-
-.amenities-card .img3 {
-  background-image: url(../img/amenities/SeniorCitizenArea.jpg);
-}
-
-.amenities-card .img4 {
-  background-image: url(../img/amenities/Clubhouse.jpg);
-}
-
-.amenities-card .img5 {
-  background-image: url(../img/amenities/yoga.jpg);
-}
-
-.amenities-card .img6 {
-  background-image: url(../img/amenities/StarGazingDeck.jpg);
-}
-
-.amenities-card .img7 {
-  background-image: url(../img/amenities/LandscapedGardens.jpg);
-}
-
-.amenities-card .img8 {
-  background-image: url(../img/amenities/Amphitheatre.jpg);
 }
 
 .amenities-card h4 {

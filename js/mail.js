@@ -24,7 +24,7 @@ const handleFormSubmit = async (
   nameField,
   emailField,
   phoneField,
-  privacyField
+  privacyField,
 ) => {
   const templateParams = {
     user_name: document.getElementById(nameField).value,
@@ -34,7 +34,7 @@ const handleFormSubmit = async (
     ip_address: await getIpAddress(),
     website_url: window.location.href,
     to_email: "harsh.autowebbed@gmail.com",
-    company_name: "{Project Name}",
+    company_name: "One Vaviya",
   };
 
   // Send Form
@@ -50,7 +50,7 @@ const handleFormSubmit = async (
     function (error) {
       console.log("FAILED...", error);
       alert("Message Not Sent");
-    }
+    },
   );
 };
 
@@ -64,7 +64,7 @@ window.onload = function () {
         "user_name",
         "user_email",
         "contact_number",
-        "privacy_check"
+        "privacy_check",
       );
     });
 
@@ -77,7 +77,7 @@ window.onload = function () {
         "user_name_modal",
         "user_email_modal",
         "contact_number_modal",
-        "privacy_check_modal"
+        "privacy_check_modal",
       );
     });
 };
