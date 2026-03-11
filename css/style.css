@@ -73,6 +73,17 @@ body {
     height: 45px;
   }
 }
+/*  */
+
+@media screen and (min-width: 1000px) {
+  .mobileview {
+    display: none;
+  }
+}
+
+.head_call_btn {
+  color: var(--colorSecondary);
+}
 
 /* Navbar Ends */
 
@@ -92,13 +103,13 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner1.png");
+    content: url("../img/banners/mobile_banner_1.jpeg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner2.png");
+    content: url("../img/banners/mobile_banner_2.jpeg");
   }
   .carousel-item .banner3 {
-    content: url("../img/banners/mobile_banner3.png");
+    content: url("../img/banners/mobile_banner_3.jpeg");
   }
 }
 
